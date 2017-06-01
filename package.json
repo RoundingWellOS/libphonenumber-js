@@ -1,5 +1,5 @@
 {
-  "name": "@RoundingWellOS/libphonenumber-js",
+  "name": "@roundingwellos/libphonenumber-js",
   "version": "0.4.12",
   "description": "A simpler (and smaller) rewrite of Google Android's popular libphonenumber library",
   "main": "index.common.js",
