@@ -29,8 +29,5 @@ npm-debug.log
 /build/
 /es6/
 
-# browser builds
-/bundle/
-
 # intermediary metadata
 /metadata.json
