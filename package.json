@@ -28,7 +28,7 @@
     "webpack": "^2.2.0-rc.3"
   },
   "scripts": {
-    "rwell-build": "npm-run-all libphonenumber-metadata && npm run browser-build",
+    "rwell-build": "npm-run-all metadata:download libphonenumber-metadata browser-build",
     "libphonenumber-metadata": "node bin/update-metadata.js metadata.min.json --countries US,IN,BR --extended",
     "metadata:pull-request": "babel-node runnable/metadata-pull-request",
     "metadata:branch": "babel-node runnable/metadata-branch",
